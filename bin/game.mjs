@@ -1,2 +1,2 @@
 // game.mjs
-console.log("Hello\n"); 
+console.log('hello\n'); 
