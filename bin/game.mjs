@@ -34,7 +34,7 @@ const initializeBeforePlay = () => {
         ({deck, playerHand, computerHand, discardPile, nextPlay} = JSON.parse(data));
 
         //playGame() as callback function of readfile to ensure file data is loaded before game begins
-        playGame(deck, playerHand, computerHand, discardPile, nextPlay); 
+        playGame(deck, playerHand, computerHand, discardPile, nextPlay);  
         })
 
     } else { 
